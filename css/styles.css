@@ -31,7 +31,11 @@ header a {
 .cta {
   background-color: #bb0000;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .reviews {
@@ -42,8 +46,27 @@ header a {
   background-color: #fbfbfb;
 }
 
+.cta-view {
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 0.8em;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
+
 .cta-sale {
   background-color: #127300;
+  font-size: 0.8em;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
 }
 
 footer {
@@ -86,4 +109,9 @@ header nav a:hover {
 
 header a.active {
   text-decoration: underline;
+}
+
+nav ul li {
+  padding-right: 10px;
+  padding-left: 10px;
 }
