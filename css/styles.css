@@ -66,3 +66,24 @@ footer {
 .circle-image {
   border-radius: 50%;
 }
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header a.active {
+  text-decoration: underline;
+}
