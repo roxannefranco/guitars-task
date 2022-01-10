@@ -80,6 +80,14 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 70vh; /* vh = viewport height */
+  position: relative;
+}
+
+.welcome-content {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  text-align: center;
 }
 
 .our-guitars-image {
